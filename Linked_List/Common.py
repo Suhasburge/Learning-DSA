@@ -25,7 +25,7 @@ def take_input_better():
             tail.next = newNode
             tail = newNode
 
-        value = int(input("Enter the value of Node: "))
+        value = int(input("Enter the value of Node:"))
 
     return head
 
