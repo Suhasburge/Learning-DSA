@@ -12,7 +12,7 @@ def print_LL(head):
     return
 
 def take_input_better():
-    value = int(input("Enter the value of Node: "))
+    value = int(input("Enter the value of Node:"))
     head = None
     tail = None
 
