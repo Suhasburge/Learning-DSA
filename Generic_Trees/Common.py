@@ -3,5 +3,17 @@ class TreeNode:
         self.data = data
         self.children = []
 
+def print_tree_detailed(root):
+    if (root == None):
+        return
 
+    print(f"{root.data}:",end = "")
+
+    for eachChild in root.children:
+        print(eachChild.data,end = ",")
+
+    print()
+
+    for eachChild in root.children:
+        print_tree_detailed(eachChild)
 
